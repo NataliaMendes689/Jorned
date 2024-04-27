@@ -11,8 +11,11 @@ O Programa ONE é uma iniciativa de educação e empregabilidade com o objetivo 
 **Ao longo da minha jornada no Programa ONE, me dedicarei a:**
 
 **Aprofundar meus conhecimentos em back-end com Java:** Explorarei os conceitos e técnicas essenciais para desenvolver aplicações robustas e escaláveis.
+
 **Aprimorar minhas habilidades de programação:** Praticarei constantemente a resolução de exercícios e desafios, buscando sempre aprimorar minha lógica de programação e capacidade de resolução de problemas.
+
 **Construir um portfólio de projetos:** Desenvolverei projetos práticos para aplicar o que aprendi e demonstrar minhas habilidades em back-end com Java.
+
 **Me preparar para o mercado de trabalho:** Participarei de eventos, workshops e webinars para me conectar com profissionais da área e me preparar para as oportunidades que surgirem.
 
 # Neste repositório:
