@@ -1,4 +1,4 @@
-<h1 align="center"> Programa ONE: Jornada de Aprendizado em Back-end com Java </h1>
+<h1 align="center"> Jornada de Aprendizado em Back-end com Java </h1>
 Olá! Sou Natalia Mendes e estou participando do Programa ONE, uma iniciativa incrível que visa capacitar pessoas em tecnologia e conectá-las ao mercado de trabalho.
 Neste repositório, compartilharei minha jornada de aprendizado com foco em especialização em back-end com Java.
 
