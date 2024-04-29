@@ -22,3 +22,4 @@ O Programa ONE é uma iniciativa de educação e empregabilidade com o objetivo 
 Compartilharei meus códigos, projetos sobre a minha jornada no Programa ONE e Me conectarei com outras participantes do programa e profissionais da área.
 
 **Junte-se a mim nesta jornada!**
+@jacqueline-oliveira
