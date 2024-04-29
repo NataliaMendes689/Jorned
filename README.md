@@ -23,4 +23,3 @@ Compartilharei meus códigos, projetos sobre a minha jornada no Programa ONE e M
 
 **Junte-se a mim nesta jornada!**
 
-@jacqueline-oliveira
