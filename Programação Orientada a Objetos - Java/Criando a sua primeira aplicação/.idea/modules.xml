@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/Aula 1/Aula 1.iml" filepath="$PROJECT_DIR$/Exercícios/Aula 1/Aula 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/CalcAreas/CalcAreas.iml" filepath="$PROJECT_DIR$/Exercícios/CalcAreas/CalcAreas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/Celsius_Fahrenheit/Celsius_Fahrenheit.iml" filepath="$PROJECT_DIR$/Exercícios/Celsius_Fahrenheit/Celsius_Fahrenheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/ComparandoNum/ComparandoNum.iml" filepath="$PROJECT_DIR$/Exercícios/ComparandoNum/ComparandoNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Criando a sua primeira aplicação.iml" filepath="$PROJECT_DIR$/.idea/Criando a sua primeira aplicação.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioContaBancaria/DesafioContaBancaria.iml" filepath="$PROJECT_DIR$/DesafioContaBancaria/DesafioContaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/Fatorial/Fatorial.iml" filepath="$PROJECT_DIR$/Exercícios/Fatorial/Fatorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/NumPositivoNegativo/NumPositivoNegativo.iml" filepath="$PROJECT_DIR$/Exercícios/NumPositivoNegativo/NumPositivoNegativo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/NumeroSecreto/NumeroSecreto.iml" filepath="$PROJECT_DIR$/Exercícios/NumeroSecreto/NumeroSecreto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/ParImpar/ParImpar.iml" filepath="$PROJECT_DIR$/Exercícios/ParImpar/ParImpar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/PrimeiroProjeto/PrimeiroProjeto.iml" filepath="$PROJECT_DIR$/Exercícios/PrimeiroProjeto/PrimeiroProjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" filepath="$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/Tabuada/Tabuada.iml" filepath="$PROJECT_DIR$/Exercícios/Tabuada/Tabuada.iml" />
+    </modules>
+  </component>
+</project>
