@@ -2,9 +2,7 @@
 // o dobro desse número.
 
 public class Calculadora {
-
-    public double dobrar(double numero) {
+    public int dobrar(int numero) {
         return numero * 2;
     }
-
 }
