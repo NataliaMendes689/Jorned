@@ -50,14 +50,55 @@ console.log(`A diferença entre ${valor1} e ${valor2} é igual a ${resultado}`);
 // 7. Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se
 // a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
 
+let idade = prompt('Digite a sua idade:');
+
+if (idade >= 18) {
+    console.log('Você é maior de idade!')
+} else {
+    console.log('Você é menor de idade!')
+}
+
 // 8. Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero.
 // Use if-else para imprimir a respectiva mensagem.
 
+let numero = parseFloat(prompt("Digite um número:"));
+
+if (numero > 0) {
+    alert('O número é positivo!');
+
+} else if (numero == 0) {
+    alert('O número é zero, neutro');
+
+} else {
+    alert('O número é negativo');
+}
+
 // 9. Use um loop while para imprimir os números de 1 a 10 no console.
+
+let numero = 1;
+while (numero <= 10) {
+    console.log(numero);
+    numero++;
+}
 
 // 10. Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior
 // ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 
+let nota = prompt('Digite sua nota:');
+
+if (nota >= 7) {
+    console.log('Aprovado');
+} else {
+    console.log('Reprovado');
+}
+
 // 11. Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 
+let numeroAleatorio = Math.random();
+
+console.log(numeroAleatorio);
+
 // 12. Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+
+let numeroInteiroAleatorio = parseInt(Math.random() * 100) + 1;
+console.log(numeroInteiroAleatorio);
