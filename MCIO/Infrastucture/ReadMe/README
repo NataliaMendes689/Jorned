@@ -12,12 +12,31 @@
 
 Trabalho em grupo para atender ao 
 Requisito: Construa um ambiente para subir sites em Wordpress e automatizar o processo com IaC 
+
+Com base nos princípios:
+1. Controle de versão para todos os scripts de infraestrutura utilizado GitHub e GitActions
+2. Automação testes para garantir a integridade das mudanças
+3. Documentação clara e sua atualização dos processos e configurações
+4. Incorporar práticas de segurança desde o início do desenvolvimento.
+
 Foi utilizado o LAMP Stack (Linux, Apache, MySQL, PHP) uma combinação popular para criar e hospedar sites e aplicações web, juntamente com o Terraform para criar a infraestrutura como código.
 Monitoramento e observabilidade: Prometheus e Grafana Nuvem: AWS
 Benefícios de se criar IaC (Infraestructure as Code) 
 Automatizar o processo de criação de infraestrutura
 Padronização de infraestrutura
 Replicar de forma fácil
+
+Através dos conceitos de CI (Continuous Integration) e CD (Continuous Deployment)
+CI (Integração contínua): processo de integrar e testar alterações de código de infraestrutura frequentemente, garantindo que a infraestrutura definida como código esteja correta antes de ser implantada.
+CD (Implantação contínua): após as alterações passarem pelos testes de CI, elas são preparadas em produção, garantindo que a infraestrutura esteja sempre atualizada.
+
+Segurança da IaC:
+Uso de SSH com chaves para um acesso seguro à infraestrutura.
+Adoção do princípio de menor privilégio para as permissões.
+Gerenciamento e auditoria das permissões de forma rigorosa.
+Cuidado para não armazenar chaves privadas ou credenciais diretamente no código utilizando ACCESS KEYs secretas.
+
+
 
 Linux: sistema operacional fornecendo uma base estável segura para executar aplicativos web.
 Apache: software servidor web para receber solicitações de clientes web e fornece conteúdo web em resposta.
