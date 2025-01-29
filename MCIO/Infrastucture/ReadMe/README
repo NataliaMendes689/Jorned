@@ -1,0 +1,59 @@
+# Desafio DevOps
+
+
+
+## Equipe 
+
+### PO Yanne Oliveira Almeida
+### Scrum Viviane Akemi Okuma
+### Engenheira Cloud Natália Custódio de Melo Mendes
+### Engenheira Cloud Daiana Menezes Lima
+
+
+Trabalho em grupo para atender ao 
+Requisito: Construa um ambiente para subir sites em Wordpress e automatizar o processo com IaC 
+
+Com base nos princípios:
+1. Controle de versão para todos os scripts de infraestrutura utilizado GitHub e GitActions
+2. Automação testes para garantir a integridade das mudanças
+3. Documentação clara e sua atualização dos processos e configurações
+4. Incorporar práticas de segurança desde o início do desenvolvimento.
+
+Foi utilizado o LAMP Stack (Linux, Apache, MySQL, PHP) uma combinação popular para criar e hospedar sites e aplicações web, juntamente com o Terraform para criar a infraestrutura como código.
+Monitoramento e observabilidade: Prometheus e Grafana Nuvem: AWS
+Benefícios de se criar IaC (Infraestructure as Code) 
+Automatizar o processo de criação de infraestrutura
+Padronização de infraestrutura
+Replicar de forma fácil
+
+Através dos conceitos de CI (Continuous Integration) e CD (Continuous Deployment)
+CI (Integração contínua): processo de integrar e testar alterações de código de infraestrutura frequentemente, garantindo que a infraestrutura definida como código esteja correta antes de ser implantada.
+CD (Implantação contínua): após as alterações passarem pelos testes de CI, elas são preparadas em produção, garantindo que a infraestrutura esteja sempre atualizada.
+
+Segurança da IaC:
+Uso de SSH com chaves para um acesso seguro à infraestrutura.
+Adoção do princípio de menor privilégio para as permissões.
+Gerenciamento e auditoria das permissões de forma rigorosa.
+Cuidado para não armazenar chaves privadas ou credenciais diretamente no código utilizando ACCESS KEYs secretas.
+
+
+
+Linux: sistema operacional fornecendo uma base estável segura para executar aplicativos web.
+Apache: software servidor web para receber solicitações de clientes web e fornece conteúdo web em resposta.
+MySQL: sistema de gerenciamento d banco de dados relacional (RMBMS) usado para armazenar e gerenciar dados para aplicativos web.
+PHP: linguagem de programação usada para escrever a lógica do aplicativo e gerar conteúdo web dinâmico.
+Terraform: ferramenta de IaC de código aberto desenvolvida pela HashiCorp, que permite criar, modificar e versionar a infraestrutura em provedores de nuvem, de maneira automatizada e programática.
+Prometheus: ferramenta de monitoramento e alerta de sistemas, coleta, armazena métricas em tempo real, como o uso de CPU, memória, latência de rede, entre outras.
+Grafana: plataforma de visualização de dados que se integra com diversas fontes de dados como o Prometheus. Permite criar dashboards interativos e gráficos.
+
+Representados a seguir:
+
+![imagem requisito](https://github.com/ViviAkhemi/Jorned/blob/main/MCIO/Infrastucture/ReadMe/requisito.jpg)
+
+O provisionamento automatizado é o processo de instalação e configuração de recursos de computação como servidores, armazenamento, redes e software de forma automatizada para torná-los disponíveis para uso. 
+Isso é fundamental para garantir que os ambientes de desenvolvimento, teste e produção sejam configurados de maneira consistente e sem erros humanos.
+
+Neste trabalho utilizamos o Terraform com AWS, e foi possível a criação de uma infraestrutura para hospedar um site WordPress em uma instância Linux.
+Foram criadas instâncias EC2, banco de dados RDS, grupos de segurança.
+
+
