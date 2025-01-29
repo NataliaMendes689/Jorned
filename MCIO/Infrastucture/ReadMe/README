@@ -29,7 +29,7 @@ Grafana: plataforma de visualização de dados que se integra com diversas fonte
 
 Representados a seguir:
 
-![imagem requisito](https://github.com/ViviAkhemi/infrastructure/blob/master/img/requisito.jpg)
+![imagem requisito](https://github.com/ViviAkhemi/Jorned/blob/main/MCIO/Infrastucture/ReadMe/requisito.jpg)
 
 O provisionamento automatizado é o processo de instalação e configuração de recursos de computação como servidores, armazenamento, redes e software de forma automatizada para torná-los disponíveis para uso. 
 Isso é fundamental para garantir que os ambientes de desenvolvimento, teste e produção sejam configurados de maneira consistente e sem erros humanos.
