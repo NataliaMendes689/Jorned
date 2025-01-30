@@ -1,0 +1,10 @@
+wp-content/cache/
+wp-content/uploads/
+wp-content/upgrade/
+wp-config.php
+*.log
+*.bak
+*.sql
+*.tar.gz
+wp-content/plugins/
+wp-content/themes/twentytwenty*/ 
