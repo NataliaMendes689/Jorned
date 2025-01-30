@@ -9,7 +9,6 @@
 ### Engenheira Cloud Natália Custódio de Melo Mendes
 ### Engenheira Cloud Daiana Menezes Lima
 
- 
 # 🚀 Infraestrutura como Código (IaC) para WordPress com Terraform
 
 ## 📌 Requisito
@@ -58,5 +57,3 @@ O provisionamento automatizado instala e configura servidores, redes e software 
 ✅ **Grupos de Segurança** (controle de acesso e firewall).
 
 Com isso, garantimos um ambiente confiável e escalável para hospedar sites WordPress.
-
-
