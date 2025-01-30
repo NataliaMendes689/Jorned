@@ -10,50 +10,51 @@
 ### Engenheira Cloud Daiana Menezes Lima
 
 
-Trabalho em grupo para atender ao 
-Requisito: Construa um ambiente para subir sites em Wordpress e automatizar o processo com IaC 
+# 🚀 Infraestrutura como Código (IaC) para WordPress com Terraform
 
-Com base nos princípios:
-1. Controle de versão para todos os scripts de infraestrutura utilizado GitHub e GitActions
-2. Automação testes para garantir a integridade das mudanças
-3. Documentação clara e sua atualização dos processos e configurações
-4. Incorporar práticas de segurança desde o início do desenvolvimento.
+## 📌 Requisito
+Construir um ambiente para hospedar sites em WordPress e automatizar o processo com IaC.
 
-Foi utilizado o LAMP Stack (Linux, Apache, MySQL, PHP) uma combinação popular para criar e hospedar sites e aplicações web, juntamente com o Terraform para criar a infraestrutura como código.
-Monitoramento e observabilidade: Prometheus e Grafana Nuvem: AWS
-Benefícios de se criar IaC (Infraestructure as Code) 
-Automatizar o processo de criação de infraestrutura
-Padronização de infraestrutura
-Replicar de forma fácil
+### 🔹 **Princípios Adotados**
+1️⃣ **Controle de Versão**: Todos os scripts de infraestrutura estão versionados no GitHub, utilizando GitActions para automação.
+2️⃣ **Testes Automatizados**: Garantia de integridade das mudanças antes da implantação.
+3️⃣ **Documentação Clara**: Processos e configurações documentados e constantemente atualizados.
+4️⃣ **Segurança Incorporada**: Práticas seguras aplicadas desde a fase de desenvolvimento.
 
-Através dos conceitos de CI (Continuous Integration) e CD (Continuous Deployment)
-CI (Integração contínua): processo de integrar e testar alterações de código de infraestrutura frequentemente, garantindo que a infraestrutura definida como código esteja correta antes de ser implantada.
-CD (Implantação contínua): após as alterações passarem pelos testes de CI, elas são preparadas em produção, garantindo que a infraestrutura esteja sempre atualizada.
+## 🛠️ **Tecnologias Utilizadas**
+Foi utilizado o **LAMP Stack** (Linux, Apache, MySQL, PHP) em conjunto com o **Terraform** para criação da infraestrutura como código. O monitoramento e observabilidade são garantidos por **Prometheus** e **Grafana** na nuvem **AWS**.
 
-Segurança da IaC:
-Uso de SSH com chaves para um acesso seguro à infraestrutura.
-Adoção do princípio de menor privilégio para as permissões.
-Gerenciamento e auditoria das permissões de forma rigorosa.
-Cuidado para não armazenar chaves privadas ou credenciais diretamente no código utilizando ACCESS KEYs secretas.
+## 🎯 **Benefícios da Infraestrutura como Código (IaC)**
+✅ **Automatiza** a criação da infraestrutura.
+✅ **Padroniza** ambientes, reduzindo erros humanos.
+✅ **Facilita a replicação** da infraestrutura em diferentes ambientes.
 
+## 🔄 **Integração Contínua (CI) & Implantação Contínua (CD)**
+🔹 **CI (Continuous Integration):** Testa e valida automaticamente as alterações nos códigos de infraestrutura.
+🔹 **CD (Continuous Deployment):** Aplica as alterações validadas para garantir que a infraestrutura esteja sempre atualizada.
 
+## 🔒 **Segurança na IaC**
+🔹 **Uso de SSH com chaves** para acesso seguro.
+🔹 **Princípio do Menor Privilégio**, limitando acessos.
+🔹 **Auditoria e gerenciamento rigoroso** das permissões.
+🔹 **Evita exposição de credenciais**, utilizando ACCESS KEYs seguras.
 
-Linux: sistema operacional fornecendo uma base estável segura para executar aplicativos web.
-Apache: software servidor web para receber solicitações de clientes web e fornece conteúdo web em resposta.
-MySQL: sistema de gerenciamento d banco de dados relacional (RMBMS) usado para armazenar e gerenciar dados para aplicativos web.
-PHP: linguagem de programação usada para escrever a lógica do aplicativo e gerar conteúdo web dinâmico.
-Terraform: ferramenta de IaC de código aberto desenvolvida pela HashiCorp, que permite criar, modificar e versionar a infraestrutura em provedores de nuvem, de maneira automatizada e programática.
-Prometheus: ferramenta de monitoramento e alerta de sistemas, coleta, armazena métricas em tempo real, como o uso de CPU, memória, latência de rede, entre outras.
-Grafana: plataforma de visualização de dados que se integra com diversas fontes de dados como o Prometheus. Permite criar dashboards interativos e gráficos.
+## 🏗️ **Componentes da Solução**
+✅ **Linux:** Sistema operacional estável e seguro.
+✅ **Apache:** Servidor web para hospedagem dos sites.
+✅ **MySQL:** Banco de dados relacional para armazenar informações do WordPress.
+✅ **PHP:** Linguagem de programação utilizada para lógica do WordPress.
+✅ **Terraform:** Ferramenta de IaC para provisionamento da infraestrutura na AWS.
+✅ **Prometheus:** Monitoramento e coleta de métricas em tempo real.
+✅ **Grafana:** Visualização de dados e dashboards dinâmicos.
 
-Representados a seguir:
+## 📊 **Arquitetura do Projeto**
+![Imagem Requisito](https://github.com/ViviAkhemi/Jorned/blob/main/MCIO/Infrastucture/ReadMe/requisito.jpg)
 
-![imagem requisito](https://github.com/ViviAkhemi/Jorned/blob/main/MCIO/Infrastucture/ReadMe/requisito.jpg)
+## 🔧 **Provisionamento Automatizado**
+O provisionamento automatizado instala e configura servidores, redes e software de forma consistente e sem erros humanos. Utilizamos **Terraform com AWS** para criar:
+✅ **Instâncias EC2** (hospedagem do WordPress).
+✅ **Banco de Dados RDS** (armazenamento das informações).
+✅ **Grupos de Segurança** (controle de acesso e firewall).
 
-O provisionamento automatizado é o processo de instalação e configuração de recursos de computação como servidores, armazenamento, redes e software de forma automatizada para torná-los disponíveis para uso. 
-Isso é fundamental para garantir que os ambientes de desenvolvimento, teste e produção sejam configurados de maneira consistente e sem erros humanos.
-
-Neste trabalho utilizamos o Terraform com AWS, e foi possível a criação de uma infraestrutura para hospedar um site WordPress em uma instância Linux.
-Foram criadas instâncias EC2, banco de dados RDS, grupos de segurança.
-
-
+Com isso, garantimos um ambiente confiável e escalável para hospedar sites WordPress.
